@@ -1,8 +1,0 @@
-my_project/
-├── src/
-│   └── html_text_extractor/
-│       ├── __init__.py
-│       ├── _native.py
-│       └── _native.c
-├── setup.py
-└── test.py

@@ -13,3 +13,11 @@ wheels/
 # Debug files
 ___*
 *.ipynb
+create_structure.py
+dirstruct.txt
+main.py
+*.bak
+
+
+# IDE
+.vscode/
