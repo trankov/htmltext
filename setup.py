@@ -14,5 +14,5 @@ setup(
     long_description=(Path(__file__).parent / "README.md").read_text(),
     long_description_content_type='text/markdown',
     ext_modules=[module],
-    python_requires='>=3.7',
+    python_requires='>=3.8',
 )
