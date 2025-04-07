@@ -4,6 +4,10 @@
 #include <stdlib.h>
 #include <ctype.h>
 
+#ifdef _WIN32
+#define strncasecmp _strnicmp
+#endif
+
 #define MAX_INPUT_SIZE (5 * 1024 * 1024)  // 5 MB
 
 // Быстрая проверка на блочные HTML-теги
